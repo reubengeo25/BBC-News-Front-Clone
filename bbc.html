@@ -1,0 +1,356 @@
+<html>
+    <head>
+        <title>Technology - BBC News</title>
+    </head>
+    <style type="text/css">
+        #navigation{
+            width:1000px;
+            margin:0 auto;
+            height:40px;
+
+        }
+        body{
+            margin:0;
+            padding:0;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #logo{
+            margin-top:8px;
+            width:100px;
+            float:left;
+            margin-right:8px
+        }
+        .navibar-area{
+            float:left;
+            border-left: 1px #cccccc solid;
+            height:100%;
+        }
+        #signin-image{
+            width:30px;
+            margin:12px 15px;
+            float:left;
+        }
+        #signin-text{
+            font-weight:bold;
+            font-size:90%;
+            position:relative;
+            top:14px;
+            padding-right:50px
+            
+        }
+        #pointed-line{
+            float:left;
+            height:40px;
+        }
+        #bell{
+            height:25px;
+            margin:9px 8px 0px 8px;
+        }
+        #bell-div{
+            float:left;
+        }
+        .navbar-menu{
+            font-weight:bold;
+            font-size:90%;
+            padding:13px 15px 0 15px;
+            height:27px;
+        }
+        #d-arrow{
+            width:13px;
+            margin-left:20px;
+        }
+        #search-panel{
+            background-color: #E4E4E4;
+            border:none;
+            font-weight:bold;
+            font-size: 14px;
+            padding: 5px;
+            margin:5px 0px 5px 5px;
+            float:left;
+        }
+        #search-icon{
+            height: 27px;
+            margin-top:5px;
+        }
+        .clear{
+            clear:both;
+        }
+        #menu-bar{
+            border-top: 1px solid #cccccc;
+            background-color: #BD160D;
+            width:100%;
+            height: 70px;
+        }
+        #menu-subbar{
+            width:1000px;
+            margin:0 auto;
+        }
+        h1{
+            padding:0;
+            margin:0;
+            color:white;
+            font-size: 40px;
+            font-weight: normal;
+            padding-top:10px;
+            float:left;
+            
+        }
+        #location{
+            float:right;
+            border:1px #BB4545 solid;
+             width:250px;
+             padding:5px 5px 0px 10px;
+             margin:5px 10px 0px 0px;
+
+        }
+        #location a{
+            color:white;
+            text-decoration: none;
+            font-size: 26px;
+            position:relative;
+            top:-8px;
+        }
+        #location a:hover{
+            text-decoration: underline;
+        }
+        #location img{
+            height: 40px;
+        }
+        #menu-bar2{
+            background-color: #A91717;
+            width:100%;
+        }
+        #menu-subbar2{
+            width:1000px;
+            margin:0 auto;
+            height: 40px;
+        }
+        #menu-subbar2 a{
+            color:white;
+            text-decoration: none;
+            font-size: 14px;
+            position:relative;
+            top:11px;
+            padding:0 10px;
+            border-right:1px solid #BB4545;
+        }
+        #menu-subbar2 a:hover{
+            text-decoration: underline;
+        }
+        .no-border{
+            border:none !important;
+        }
+        #red-darrow{
+            height: 10px;
+            position: relative;
+            top:11px;
+        }
+        #main-art{
+            width:1000px;
+            margin:0 auto;
+        }
+        h2{
+            font-weight: normal;
+            margin-top:40px;
+            font-size: 20px;
+            border-bottom: 3px solid #A91717;
+            width:105px
+        }
+        h3 a{
+            color:black;
+            font-size: 27px;
+            text-decoration: none;
+        }
+        h3 a:hover{
+            color:#1167A8;
+        }
+        #art-sum{
+            color:#5A5A5A;
+            width:250px;
+            float:left;
+        }
+        .clock{
+            height:15px;
+            position: relative;
+            top:2px;
+        }
+        .sub-line{
+            text-decoration: none;
+            color:#A91717;
+            border-left: 2px solid #cccccc;
+            padding-left: 10px;
+        }
+        #art-sum a:hover{
+            color:#1167A8;
+        }
+        .date{
+            padding-right:10px;
+            color:#5A5A5A
+        }
+        #art-contain{
+            float:left;
+            width: 670px;
+            border-right: 1px solid #cccccc;
+            padding-right:20px;
+        }
+        #main-img{
+            width:400px;
+            margin-left:20px;
+        }
+        #art-hr{
+            width: 50px;
+            border-top: 1px solid #A91717;
+        }
+        .other-link{
+            color:black;
+            text-decoration: none;
+        }
+        #vids-sec{
+            margin-left:20px;
+            width: 280px;
+            float:right;
+        }
+        h4{
+            font-weight: normal;
+            font-size: 20px;
+        }
+        .art-side{
+            float: left;
+            width:90px;
+            margin-right: 10px;
+        }
+        .vid-link{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .vid-link:hover{
+            color:#1167A8;
+        }
+        .side-text{
+            float:right;
+            width:180px;
+            position: relative;
+            top:-18px;
+        }
+        .no-border{
+            border-left:none;
+            padding:0;
+        }
+        .border-right{
+            border-right: 1px solid #cccccc;
+        }
+        .sub-line:hover{
+            color:#1167A8;
+        }
+    </style>
+    <body>
+        <div id="navigation">
+            <img id="logo" src="images/bbc-logo.png">
+            <div id="signin" class="navibar-area">
+                <img id="signin-image" src="images/signin.png">
+                <span id="signin-text">Sign in</span>
+            </div>
+            <div id="bell-div">
+                <img id="pointed-line" src="images/signin-border.png">
+                <img id="bell" src="images/bell.png">
+            </div>
+            <div class="navibar-area navbar-menu">
+                News
+            </div>
+            <div class="navibar-area navbar-menu">
+                Sport
+            </div>
+            <div class="navibar-area navbar-menu">
+                Weather
+            </div>
+            <div class="navibar-area navbar-menu">
+                iPlayer
+            </div>
+            <div class="navibar-area navbar-menu">
+                TV
+            </div>
+            <div class="navibar-area navbar-menu">
+                More
+                <img id="d-arrow" src="images/down-arrow.png">
+            </div>
+            <div class="navibar-area">
+                <input id="search-panel" type="text" value="Search">
+                <input type="image" id="search-icon" src="images/magnify-glass.png">
+            </div>
+        </div>
+        <div class="clear">
+            <div id="menu-bar">
+                <div id="menu-subbar">
+                    <h1>NEWS</h1>
+                    <div id="location">
+                        <a href="">Find local news</a>
+                        <img src="images/location.png">
+                    </div>
+                </div>
+                <div class="clear">
+                    <div id="menu-bar2">
+                        <div id=menu-subbar2>
+                            <a href="">Home</a>
+                            <a href="">UK</a>
+                            <a href="">World</a>
+                            <a href="">Business</a>
+                            <a href="">Politics</a>
+                            <a href="">Tech</a>
+                            <a href="">Science</a>
+                            <a href="">Health</a>
+                            <a href="">Education</a>
+                            <a href="">Entertainment & Arts</a>
+                            <a href="">Video & Audio</a>
+                            <a href="" class="no-border">More</a>
+                            <img id="red-darrow" src="images/red-down.png">
+
+                        </div>
+                    
+                    </div>
+                    <div class="clear"></div>
+                    <div id="main-art">
+                        <div id="page1">
+                            <h2>Technology</h2>
+                            <div id="art-contain">
+                                <h3><a href="">Spotify tests TikTok-like vertical video feature</a></h3>
+                                <div id="art-sum">
+                                    <p>Spotify is the latest app to experiment with a vertical video feed similar to TikTok's successful design.
+                                    A new feature in an early test build for iPhone reveals a new Discover tab being added to the app's front page.</p>
+                                    <p><img src="images/timer.png" class="clock"><span class="date">1 Day Ago</span><a href="" class="sub-line">Technology</a></p>
+                                    <hr id="art-hr" align="left">
+                                    <p><a href="" class="other-link">Protests hit Amazon on Black Friday</a></p>
+                                    <p><a href="" class="other-link">Tencent Ordered To suspend new app roll outs</a></p>
+                                </div>
+                                <img id="main-img"src="Images/article-cover.jpg">
+                            </div>
+                        </div>
+                        
+                        <div id="vids-sec">
+                            <h4>Watch/Listen</h4>
+                            <img src="Images/vid1.png" class="art-side">
+                            <div class="side-text">
+                                <p><a href="" class="vid-link">Will printable solar cells reshape buildings?</a></p>
+                                <p><img src="images/timer.png" class="clock"><span class="date">3 Day Ago</span></p>
+
+                            </div>
+                            <div class="clear"></div>
+                            <img src="Images/vid2.png" class="art-side">
+                            <div class="side-text">
+                                <p><a href="" class="vid-link">Pets can ring owners with dog-phone</a></p>
+                                <p><img src="images/timer.png" class="clock"><span class="date border-right">3 Day Ago</span><br><a href="" class="sub-line no-border">Technology</a></p>
+                            </div>
+                            <div class="clear"></div>
+                            <img src="Images/vid3.png" class="art-side">
+                            <div class="side-text">
+                                <p><a href="" class="vid-link">Rubbish sifting robots recycle demolition waste</a></p>
+                                <p><img src="images/timer.png" class="clock"><span class="date border-right">3 Day Ago</span><br><a href="" class="sub-line no-border">Science & Environment</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
